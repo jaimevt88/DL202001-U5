@@ -4,7 +4,7 @@ RNN project for Fundamentals of Deep Learning
 ## Speech Emotion Recognition (Jaime Vergara - Luis F. Parra)
 
 This project implements a model which detects the emotion of a particular subject based on his/her waveform associated 
-to his/her speech.
+to his/her speech. All the experiments are condensed in the notebook SER.ipynb included in this repository.
 
 The dataset used for this excercise consists in selected audios from the dataset “Berlin database of emotional speech” taken from [here](http://emodb.bilderbar.info/start.html). The audios were sampled at 16kHz with 16-bit resolution and contains recordings of 10 authors (5 male and 5 female) producing 10 German utterances in an emotional manner. The recordings were labeled in seven emotions: anger, boredom, disgust, anxiety, happiness, sadness and neutral. A total of 13 MFCCs were extracted using a window of 25 ms. with a frameshift of 10 ms. Also, cepstral mean subtraction 
 was applied. 
